@@ -50,6 +50,7 @@ public class Activitymar extends AppCompatActivity {
                 Intent i = new Intent(Intent.ACTION_SEND);
                 i.setType("text/plain");
                 i.setPackage("com.whatsapp");
+                //i.putExtra(Intent.EXTRA_TEXT, m1);
                 i.putExtra(Intent.EXTRA_TEXT, m1);
 
                 startActivity(i);
